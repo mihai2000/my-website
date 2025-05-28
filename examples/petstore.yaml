@@ -4,6 +4,8 @@ servers:
     description: Default server
   - url: http://localhost:3000
     description: Prism Mock API (local)
+  - url: https://backend.tboxlabs.com
+    description: Production Server
 info:
   description: |
     This is a sample server Petstore server.
@@ -857,7 +859,7 @@ paths:
       requestBody:
         $ref: "#/components/requestBodies/UserArray"
   /user/login:
-    get:
+    post:
       tags:
         - user
       summary: Logs user into the system
@@ -910,7 +912,7 @@ paths:
         "400":
           description: Invalid username/password supplied
   /user/getKeyIv:
-    get:
+    post:
       tags:
         - user
       summary: getKeyIv from the system
@@ -957,7 +959,7 @@ paths:
         "400":
           description: Invalid username supplied
   /user/logout:
-    get:
+    post:
       tags:
         - user
       summary: Logs out current logged in user session

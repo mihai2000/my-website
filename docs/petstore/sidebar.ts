@@ -11,7 +11,7 @@ const sidebar: SidebarsConfig = {
 			label: "Pets",
 			link: {
 				type: "doc",
-				id: "petstore/pet",
+				id: "petstore/tags/pet",
 			},
 			items: [
 				{
@@ -81,7 +81,7 @@ const sidebar: SidebarsConfig = {
 			label: "Petstore Orders",
 			link: {
 				type: "doc",
-				id: "petstore/store",
+				id: "petstore/tags/store",
 			},
 			items: [
 				{
@@ -121,7 +121,7 @@ const sidebar: SidebarsConfig = {
 			label: "Users",
 			link: {
 				type: "doc",
-				id: "petstore/user",
+				id: "petstore/tags/user",
 			},
 			items: [
 				{
@@ -170,13 +170,13 @@ const sidebar: SidebarsConfig = {
 					type: "doc",
 					id: "petstore/login-user",
 					label: "Logs user into the system",
-					className: "api-method get",
+					className: "api-method post",
 				},
 				{
 					type: "doc",
 					id: "petstore/logout-user",
 					label: "Logs out current logged in user session",
-					className: "api-method get",
+					className: "api-method post",
 				},
 			],
 		},
