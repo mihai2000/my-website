@@ -1,5 +1,4 @@
 import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
-
 /**
  * Creating a sidebar enables you to:
  - create an ordered group of docs
