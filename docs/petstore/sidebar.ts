@@ -162,6 +162,12 @@ const sidebar: SidebarsConfig = {
 				},
 				{
 					type: "doc",
+					id: "petstore/get-key-iv",
+					label: "getKeyIv from the system",
+					className: "api-method post",
+				},
+				{
+					type: "doc",
 					id: "petstore/login-user",
 					label: "Logs user into the system",
 					className: "api-method get",
