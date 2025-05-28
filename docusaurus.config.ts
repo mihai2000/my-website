@@ -38,7 +38,7 @@ const config: Config = {
 				docs: {
 					sidebarPath: "./sidebars.ts",
 					docItemComponent: "@theme/ApiItem",
-					// routeBasePath:""
+					routeBasePath: "https://btest.tboxlabs.com",
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					//   editUrl:
