@@ -2,6 +2,8 @@ openapi: 3.0.0
 servers:
   - url: https://btest.tboxlabs.com/
     description: Default server
+  - url: http://localhost:3000/
+    description: Prism Mock API (local)
 info:
   description: |
     This is a sample server Petstore server.
@@ -11,14 +13,14 @@ info:
 
     ## Introduction
     This API is documented in **OpenAPI format** and is based on
-    [Petstore sample](https://btest.tboxlabs.com/) provided by [swagger.io](http://swagger.io) team.
+    [Petstore sample](http://petstore.swagger.io/) provided by [swagger.io](http://swagger.io) team.
     It was **extended** to illustrate features of [generator-openapi-repo](https://github.com/Rebilly/generator-openapi-repo)
     tool and [ReDoc](https://github.com/Redocly/redoc) documentation. In addition to standard
     OpenAPI syntax we use a few [vendor extensions](https://github.com/Redocly/redoc/blob/master/docs/redoc-vendor-extensions.md).
 
     ## OpenAPI Specification
     This API is documented in **OpenAPI format** and is based on
-    [Petstore sample](https://btest.tboxlabs.com/) provided by [swagger.io](http://swagger.io) team.
+    [Petstore sample](http://petstore.swagger.io/) provided by [swagger.io](http://swagger.io) team.
     It was **extended** to illustrate features of [generator-openapi-repo](https://github.com/Rebilly/generator-openapi-repo)
     tool and [ReDoc](https://github.com/Redocly/redoc) documentation. In addition to standard
     OpenAPI syntax we use a few [vendor extensions](https://github.com/Redocly/redoc/blob/master/docs/redoc-vendor-extensions.md).
@@ -1215,7 +1217,7 @@ components:
       type: oauth2
       flows:
         implicit:
-          authorizationUrl: "https://btest.tboxlabs.com/api/oauth/dialog"
+          authorizationUrl: "http://petstore.swagger.io/api/oauth/dialog"
           scopes:
             "write:pets": modify pets in your account
             "read:pets": read your pets
