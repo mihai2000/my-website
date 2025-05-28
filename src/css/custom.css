@@ -79,5 +79,5 @@
 }
 .schema > .menu__link::before {
 	content: "schema";
-	background-color: var(--openapi-code-orange);
+	background-color: var(--ifm-color-secondary-darkest);
 }

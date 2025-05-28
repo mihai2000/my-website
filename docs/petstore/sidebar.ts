@@ -18,7 +18,7 @@ const sidebar: SidebarsConfig = {
 					type: "doc",
 					id: "petstore/schemas/cat",
 					label: "Cat",
-					className: "schema",
+					className: "api-method schema",
 				},
 				{
 					type: "doc",
