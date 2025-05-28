@@ -919,7 +919,7 @@ paths:
       description: ""
       operationId: getKeyIv
       parameters:
-        - name: username
+        - name: UserName
           in: query
           description: The user name for getKeyIv
           required: true
@@ -958,6 +958,18 @@ paths:
                   value: OK
         "400":
           description: Invalid username supplied
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/KeyIv"
+            examples:
+              KeyIv:
+                summary: Order delivered
+                value:
+                  UserName: spizedguest
+        description: key iv got from backend
+        required: true
   /user/logout:
     post:
       tags:
