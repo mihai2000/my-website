@@ -38,6 +38,7 @@ const config: Config = {
 				docs: {
 					sidebarPath: "./sidebars.ts",
 					docItemComponent: "@theme/ApiItem",
+					// routeBasePath:""
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					//   editUrl:
