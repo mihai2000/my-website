@@ -253,7 +253,7 @@ const config: Config = {
 				config: {
 					petstore: {
 						specPath: "examples/petstore.yaml",
-						outputDir: "docs/petstore/tags",
+						outputDir: "docs/petstore",
 						sidebarOptions: {
 							groupPathsBy: "tag",
 						},
